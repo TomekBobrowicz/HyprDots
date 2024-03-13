@@ -1,0 +1,43 @@
+import = [
+    "~/.config/alacritty/themes/themes/tokyo-night.toml"
+]
+
+live_config_reload = true
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[font]
+size = 14
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[window]
+decorations = "full"
+dynamic_title = true
+dynamic_padding = false
+opacity = 0.7
+startup_mode = "Windowed"
+
+[window.padding]
+x = 15
+y = 15
