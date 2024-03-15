@@ -67,7 +67,7 @@
       "tooltip": false
     },
     "custom/startmenu": {
-      "format": " ",
+      "format": "󰣛 ",
       "on-click": "sleep 0.1 && rofi -show drun -modi drun,filebrowser,run,window",
       "tooltip": false
     },
