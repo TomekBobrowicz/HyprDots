@@ -5,7 +5,7 @@
 #[╰─cmd────❯](bold green)
 #"""
 [username]
-style_user = "cyan bold"
+style_user = "green bold"
 style_root = "red bold"
 format = "[$user]($style) "
 disabled = false
@@ -13,14 +13,14 @@ show_always = true
 
 [hostname]
 ssh_only = false
-format = 'at [$hostname](bold cyan) in '
+format = 'at [$hostname](bold green) in '
 trim_at = "."
 disabled = false
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module we are configuring is "character"
-success_symbol = "[󰣛 ❯](bold cyan)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
-error_symbol = "[󰣛 ✗](bold red)"
+success_symbol = "[ ❯](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[ ✗](bold red)"
 
 #  
 # configure directory
@@ -28,13 +28,13 @@ error_symbol = "[󰣛 ✗](bold red)"
 read_only = " "
 truncation_length = 10
 truncate_to_repo = true # truncates directory to root folder if in github repo
-style = "bold italic cyan"
+style = "bold italic green"
 
 [cmd_duration]
 min_time = 1
 format = 'took [$duration]($style)'
 disabled = false
-style = "bold italic cyan"
+style = "bold italic green"
 
 [aws]
 symbol = "  "
