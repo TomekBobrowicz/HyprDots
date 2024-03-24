@@ -23,11 +23,6 @@
       },
       "tooltip": false
     },
-    "clock": {
-      "format": "{: %H:%M}",
-      "tooltip": true,
-      "tooltip-format": "<big>{:%A, %d.%B %Y }</big><tt><small>{calendar}</small></tt>"
-    },
     "cpu": {
       "format": " {usage:2}%",
       "interval": 5,
