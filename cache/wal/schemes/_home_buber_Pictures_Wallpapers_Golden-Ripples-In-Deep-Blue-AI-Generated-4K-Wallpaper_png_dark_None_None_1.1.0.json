@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/buber/Pictures/Wallpapers/Golden-Ripples-In-Deep-Blue-AI-Generated-4K-Wallpaper.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0F13",
+        "foreground": "#9cc1cc",
+        "cursor": "#9cc1cc"
+    },
+    "colors": {
+        "color0": "#0A0F13",
+        "color1": "#10526C",
+        "color2": "#275868",
+        "color3": "#9D6B34",
+        "color4": "#CE9B4F",
+        "color5": "#1B708C",
+        "color6": "#4C798A",
+        "color7": "#9cc1cc",
+        "color8": "#6d878e",
+        "color9": "#10526C",
+        "color10": "#275868",
+        "color11": "#9D6B34",
+        "color12": "#CE9B4F",
+        "color13": "#1B708C",
+        "color14": "#4C798A",
+        "color15": "#9cc1cc"
+    }
+}

@@ -1,0 +1,168 @@
+[
+  {
+    "battery": {
+      "format": "{icon} {capacity}%",
+      "format-charging": "󰂄 {capacity}%",
+      "format-icons": [
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ],
+      "format-plugged": "󱘖 {capacity}%",
+      "on-click": "",
+      "states": {
+        "critical": 15,
+        "warning": 30
+      },
+      "tooltip": false
+    },
+    "cpu": {
+      "format": " {usage:2}%",
+      "interval": 5,
+      "tooltip": true,
+      "on-click": "sleep 0.1 && kitty -e btop",
+    },
+    "custom/exit": {
+      "format": "",
+      "on-click": "sleep 0.1 && wlogout",
+      "on-scroll-up": "~/.config/hypr/scripts/Brightness.sh --inc",
+      "on-scroll-down": "~/.config/hypr/scripts/Brightness.sh --dec",
+      "smooth-scrolling-threshold": 1,
+      "tooltip": false
+    },
+    "custom/hyprbindings": {
+      "format": " ",
+      "on-click": "sleep 0.1 && list-hypr-bindings",
+      "tooltip": false
+    },
+    "custom/notification": {
+      "escape": true,
+      "exec": "swaync-client -swb",
+      "exec-if": "which swaync-client",
+      "format": "{icon} {}",
+      "format-icons": {
+        "dnd-inhibited-none": "",
+        "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-none": "",
+        "dnd-notification": "<span foreground='red'><sup></sup></span>",
+        "inhibited-none": "",
+        "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "none": "",
+        "notification": "<span foreground='red'><sup></sup></span>"
+      },
+      "on-click": "sleep 0.1 && swaync-client -op",
+      "return-type": "json",
+      "tooltip": false
+    },
+    "custom/startmenu": {
+      "format": "󰣛 ",
+      "on-click": "sleep 0.1 && rofi -show drun -modi drun,filebrowser,run,window",
+      "tooltip": false
+    },
+    "custom/themeselector": {
+      "format": "",
+      "on-click": "sleep 0.1 && nwg-look",
+      "on-click-right": "sleep 0.1 && ~/.config/hypr/UserScripts/WallpaperSelect.sh",
+      "tooltip": false
+    },
+    "disk": {
+      "format": " {free}",
+      "tooltip": true
+    },
+    "hyprland/window": {
+      "max-length": 25,
+      "separate-outputs": false
+    },
+    "hyprland/workspaces": {
+      "format": "{name}",
+      "format-icons": {
+        "active": " ",
+        "default": " ",
+        "urgent": " "
+      },
+      "on-scroll-down": "hyprctl dispatch workspace e-1",
+      "on-scroll-up": "hyprctl dispatch workspace e+1"
+    },
+    "idle_inhibitor": {
+      "format": "{icon}",
+      "format-icons": {
+        "activated": "",
+        "deactivated": ""
+      },
+      "tooltip": "true"
+    },
+    "layer": "top",
+    "memory": {
+      "format": " {}%",
+      "interval": 5,
+      "tooltip": true
+    },
+    "modules-center": [
+      "hyprland/workspaces"
+    ],
+    "modules-left": [
+      "custom/startmenu",
+      "hyprland/window",
+      "pulseaudio",
+      "cpu",
+      "memory",
+      "disk",	
+    ],
+    "modules-right": [
+      "network",
+      "custom/exit",
+      "idle_inhibitor",
+      "custom/themeselector",
+      "custom/notification",
+      "clock",
+      "battery",
+      "tray"
+    ],
+    "network": {
+      "format-disconnected": "󰤮",
+      "format-ethernet": " {bandwidthDownOctets}",
+      "format-icons": [
+        "󰤯",
+        "󰤟",
+        "󰤢",
+        "󰤥",
+        "󰤨"
+      ],
+      "format-wifi": "{icon} {signalStrength}%",
+      "tooltip": false
+    },
+    "position": "top",
+    "pulseaudio": {
+      "format": "{icon} {volume}% {format_source}",
+      "format-bluetooth": "{volume}% {icon} {format_source}",
+      "format-bluetooth-muted": " {icon} {format_source}",
+      "format-icons": {
+        "car": "",
+        "default": [
+          "",
+          "",
+          ""
+        ],
+        "hands-free": "",
+        "headphone": "",
+        "headset": "",
+        "phone": "",
+        "portable": ""
+      },
+      "format-muted": " {format_source}",
+      "format-source": " {volume}%",
+      "format-source-muted": "",
+      "on-click": "sleep 0.1 && pavucontrol"
+    },
+    "tray": {
+      "spacing": 12
+    }
+  }
+]

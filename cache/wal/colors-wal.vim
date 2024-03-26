@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/buber/Pictures/Wallpapers/sword.png"
+let background = "#121214"
+let foreground = "#dcd6c3"
+let cursor     = "#dcd6c3"
+
+" Colors
+let color0  = "#121214"
+let color1  = "#C8696C"
+let color2  = "#798B7E"
+let color3  = "#918C76"
+let color4  = "#A59B74"
+let color5  = "#CAA86C"
+let color6  = "#A6A386"
+let color7  = "#dcd6c3"
+let color8  = "#9a9588"
+let color9  = "#C8696C"
+let color10 = "#798B7E"
+let color11 = "#918C76"
+let color12 = "#A59B74"
+let color13 = "#CAA86C"
+let color14 = "#A6A386"
+let color15 = "#dcd6c3"
