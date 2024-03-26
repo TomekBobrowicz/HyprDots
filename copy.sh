@@ -148,6 +148,10 @@ printf "\n%.0s" {1..2}
 mkdir -p ~/.config
 cp -r config/* ~/.config/ && { echo "${OK}Copy completed!"; } || { echo "${ERROR} Failed to copy config files."; exit 1; } 2>&1 | tee -a "$LOG"
 
+# Copying cache files
+mkdir -p ~/.cache
+cp -r cache/* ~/.cache/ && { echo "${OK}Copy completed!"; } || { echo "${ERROR} Failed to copy config files."; exit 1; } 2>&1 | tee -a "$LOG"
+
 # copying Wallpapers
 mkdir -p ~/Pictures/Wallpapers
 cp -r Wallpapers ~/Pictures/ && { echo "${OK}Copy completed!"; } || { echo "${ERROR} Failed to copy wallpapers."; exit 1; } 2>&1 | tee -a "$LOG"
