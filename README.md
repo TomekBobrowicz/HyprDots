@@ -11,6 +11,9 @@
 
 - https://github.com/TomekBobrowicz/hyprSuse
 
+#### Some preview
+
+
 ### 💥 Copying / Installation / Update instructions 💥
 
 > [!Note] 
