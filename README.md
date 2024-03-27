@@ -8,7 +8,7 @@
 ## 👁️‍🗨️ My Hyprland install Scripts 👁️‍🗨️
 - You can install Hyprland using Scripts below:
 
-- [OpenSUSE(Tumbleweed)][(https://github.com/JaKooLit/OpenSuse-Hyprland)](https://github.com/TomekBobrowicz/hyprSuse)
+- [OpenSUSE(Tumbleweed)][(https://github.com/TomekBobrowicz/hyprSuse)](https://github.com/TomekBobrowicz/hyprSuse)
 
 ### 💥 Copying / Installation / Update instructions 💥
 
