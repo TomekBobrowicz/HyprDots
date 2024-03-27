@@ -6,6 +6,7 @@
 </div>
 
 ## 👁️‍🗨️ My Hyprland install Scripts 👁️‍🗨️
+
 - You can install Hyprland using Scripts below:
 
 - https://github.com/TomekBobrowicz/hyprSuse
