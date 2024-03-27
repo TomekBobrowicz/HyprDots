@@ -8,7 +8,7 @@
 ## 👁️‍🗨️ My Hyprland install Scripts 👁️‍🗨️
 - You can install Hyprland using Scripts below:
 
-- [OpenSUSE(Tumbleweed)][(https://github.com/TomekBobrowicz/hyprSuse)](https://github.com/TomekBobrowicz/hyprSuse)
+- https://github.com/TomekBobrowicz/hyprSuse
 
 ### 💥 Copying / Installation / Update instructions 💥
 
@@ -39,3 +39,8 @@ chmod +x copy.sh
 #### 🙋 QUESTIONS ?!?! ⁉️
 - FAQ! Yes you can use these dotfiles to other distro! Just ensure to install proper packages first! If it makes you feel better, I use same config on Fedora
 - Keybinds Hint can be launched by Keybind SUPER H
+
+ #### Software used
+-  neovim and astronvim
+-  google chrome
+-  alacritty + alacritty-themes
