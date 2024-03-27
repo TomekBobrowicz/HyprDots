@@ -13,7 +13,7 @@
 
 #### Some preview
 <p align="center">
-    <img align="center" width="49%" src="https://raw.githubusercontent.com/TomekBobrowicz/HyprDots/main/assets/Screenshot_26-Mar_11-38-51_15417.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/TomekBobrowicz/HyprDots/main/assets/Screenshot_26-Mar_11-38-51_15417.png" />   
+    <img align="center" width="49%" src="https://raw.githubusercontent.com/TomekBobrowicz/HyprDots/main/assets/Screenshot_26-Mar_11-38-51_15417.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/TomekBobrowicz/HyprDots/main/assets/Screenshot_27-Mar_00-23-17_16133.png" />   
 
 </p>
 
