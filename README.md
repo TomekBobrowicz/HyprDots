@@ -13,6 +13,7 @@
 
 #### Some preview
 
+https://github.com/TomekBobrowicz/HyprDots/blob/main/assets/Screenshot_26-Mar_11-38-51_15417.png
 
 ### 💥 Copying / Installation / Update instructions 💥
 
